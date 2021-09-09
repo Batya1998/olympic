@@ -22,7 +22,7 @@ class Registration extends Component{
 }
 
 onRegistrationComplete=()=>{
-   this.props.history.push('detail');
+   //this.props.history.push('detail');
    console.log("state",this.state)
 }
 render() {
